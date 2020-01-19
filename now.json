@@ -1,5 +1,11 @@
 {
-  "name": "reactreserve",
-  "alias": "<insert-your-alias>.now.sh",
-  "version": 1
+  "name": "ms-react-reserve",
+  "alias": "ms-react-reserve.now.sh",
+  "version": 1,
+  "env": {
+    "MONGO_SRV": "mongodb+srv://root-dbuser:7b6Deek3BMzX2gk@reactreserve-zv3yt.mongodb.net/test?retryWrites=true&w=majority",
+    "JWT_SECRET": "this-is-the-jwt-secret-to-useaskdsakdjaskdjaskjpwewe=-=4564",
+    "CLOUDINARY_URL": "https://api.cloudinary.com/v1_1/msonmez/image/upload",
+    "STRIPE_SECRET_KEY": "sk_test_MPVPlugFWmeEfwvu68TMhV6m00gGcnPtes"
+  }
 }
